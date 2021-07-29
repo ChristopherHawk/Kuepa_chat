@@ -1,0 +1,9 @@
+# cliente
+
+# dependencies
+/cliente/node_modules
+/.pnp
+.pnp.js
+
+# testing
+node_modules

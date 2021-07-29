@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+#AppDiv{
+  
+  display: grid;
+  justify-content: center;
+  padding-top:10rem;
+ 
+}
+
+#header{
+  position: absolute;
+  top: 30px;
+  font-size: 60px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#chat {
+  padding-top: 1rem;
+  width: 40%;
+  min-height: 50vh;
+  max-height: 50vh;
+  border-radius: 2%;
+  border: 0.1px solid rgba(0, 0, 0, 0.219);
+  overflow-y: auto;  
+  outline: none; 
+}
+#chat::-webkit-scrollbar {
+  display: none;
+}
+#messages{
+margin-top: 30px;
+margin-left: 10px;
+justify-content: left;
+box-shadow: inset 0 0 2px 1px #ffffff1a, 0px 2px 5px 0px rgb(231, 240, 248);
+}
+#divEnter{
+  margin-left: 10px;
+}
+
+#btnEnter{
+  margin-top: 10px;
+}
+
+#messageBox{
+  width: 40rem;
+  hyphens: auto;
+  word-wrap: break-word;
+  line-break:strict;
+  resize: none;
+  outline: none; 
+  box-shadow: inset 0 0 2px 1px #ffffff1a, 0px 2px 5px 0px rgb(14, 15, 17);
+}
+
+#textName{
+  background: rgba(0, 0, 0, 0.699);
+  border-radius: 5%;
+  color: rgb(202, 38, 9);
+}
+#textMessage{
+  color: aliceblue;
+  margin-left: 10px;
+}
+
+#chatWindow{
+  position: absolute;
+  left: 0;
+  right: 0;
+
+}
+
+#playerdiv{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: #000;
+}
+
+#player{
+  opacity: 0.5;  
+  z-index: -1;
+}
